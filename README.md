@@ -39,7 +39,7 @@ git checkout -b <bname>
 
 ## Change commit message
 
-In case you had a typo in your commit command. Beware, you may get an error about separ
+In case you had a typo in your commit command. Beware, you may get an error about separate histories if you do this after already pushing.
 
 ```sh
 git commit --amend
