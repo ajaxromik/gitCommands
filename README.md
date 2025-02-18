@@ -22,7 +22,7 @@ git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(align:40)
 ```
 
 OR finally for the shorter version of that command if you keep a smaller terminal window:
-
+  
 ```sh
 git for-each-ref --sort=-committerdate refs/heads/ --format='%(HEAD) %(align:40)%(color:yellow)%(refname:short)%(color:reset)%(end)(%(color:green)%(committerdate:relative)%(color:reset))'
 ```
@@ -45,3 +45,10 @@ In case you had a typo in your commit command. Beware, you may get an error abou
 git commit --amend
 ```
 
+## See diff from previous commit to current
+
+Sometimes it's helpful to remind yourself what was added right before:
+
+```sh
+git diff HEAD~1 HEAD
+```
