@@ -52,3 +52,12 @@ Sometimes it's helpful to remind yourself what was added right before:
 ```sh
 git diff HEAD~1 HEAD
 ```
+
+---
+
+# GitHub things
+
+I also find this useful a lot, so here is a PR search config that will show you recently updated PRs:
+```
+is:pr author:<username> archived:false updated:>2025-02-17
+```
