@@ -7,6 +7,19 @@ MIT License
 
 ---
 
+## Move commit to another branch
+
+If you ever forget to swap branches before committing, use this:
+
+```sh
+git reset HEAD~ --soft
+git stash
+git checkout <correct_branch>
+git stash pop
+git add .
+git commit -m "message"
+```
+
 ## Recent branches
 
 For whenever you want to look a wide view of your git history, or maybe double check you've pushed everything to GitHub:
