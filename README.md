@@ -2,9 +2,6 @@
 
 This is a simple list of the useful git commands that I've been using a lot recently.
 
-### License
-MIT License
-
 ---
 
 ## Move commit to another branch
@@ -74,3 +71,8 @@ I also find this useful a lot, so here is a PR search config that will show you 
 ```
 is:pr author:<username> archived:false updated:>2025-02-17
 ```
+
+---
+
+### License
+MIT License
