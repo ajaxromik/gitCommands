@@ -4,6 +4,14 @@ This is a simple list of the useful git commands that I've been using a lot rece
 
 ---
 
+## When the remote branch has a different history due to a forced push
+
+```
+git fetch origin
+git checkout <bname>
+git reset --hard origin/<bname>
+```
+
 ## Move commit to another branch
 
 If you ever forget to swap branches before committing, use this:
